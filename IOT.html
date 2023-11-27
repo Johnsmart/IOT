@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="IOT.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="bg">
+        <div class="login">
+            <form action="">
+                <div class="form-grp">
+                    <div class="i"> <i class="fa fa-user-o" aria-hidden="true"></i></div>
+                    <input type="text" placeholder="ADMIN">
+                </div>
+                <div class="arrow">
+                    <i class="fa fa-arrow-circle-right" id="im"></i>
+
+                </div>
+                <div class="form-grp">
+                    <div class="i"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i></div>
+                    <input type="password" placeholder="PASSWORD">
+                </div>
+            </form>
+        </div>
+    </div>
+    <section id="part2">
+        <nav>
+            <h1>ESP32 Config</h1>
+            <button>Logout</button>
+        </nav>
+       <div class="grid">  <!--  gridlayout -->
+        <!-- box 1 started -->
+            <div class="g1">
+                <h1>Device Details</h1>
+             <table>
+           
+                <tr>
+                    <td>ID</td>
+                    <td>: 32456930294</td>
+                </tr>
+                <tr>
+                    <td>MeshSSID</td>
+                    <td>: ESP_MESH</td>
+                </tr>
+                <tr>
+                    <td>AP SSID</td>
+                    <td>: ESP32456930</td>
+                </tr>
+                <tr>
+                    <td>Type</td>
+                    <td>:  <input type="radio">Master </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>:<input type="radio">Node </td>
+                </tr>
+                <tr>
+                    <td>Connected</td>
+                    <td>: 3</td>
+                </tr>
+        
+            </table>
+            </div>
+            <!-- b1 end -->
+            <!-- b2 strat -->
+            <div class="g2">
+                <div><h1>I/O Pins:-</h1>
+                <div class="i"><i class="fa fa-toggle-on" aria-hidden="true">  Relay 1</i> 
+                    <i class="fa fa-toggle-on" aria-hidden="true"> Relay 5</i>
+                    <i class="fa fa-circle-thin" aria-hidden="true">Input 1</i>
+                    <i class="fa fa-circle-thin"aria-hidden="true">Input 5</i>
+                </div> <br>
+                <div class="i"><i class="fa fa-toggle-on" aria-hidden="true">  Relay 2</i> 
+                    <i class="fa fa-toggle-on" aria-hidden="true"> Relay 6</i>
+                    <i class="fa fa-circle-thin" aria-hidden="true">Input 2</i>
+                    <i class="fa fa-circle-thin"aria-hidden="true">Input 6</i>
+                </div> <br>
+                <div class="i"><i class="fa fa-toggle-on" aria-hidden="true">  Relay 3</i> 
+                    <i class="fa fa-toggle-on" aria-hidden="true"> Relay 7</i>
+                    <i class="fa fa-circle-thin" aria-hidden="true">Input 3</i>
+                    <i class="fa fa-circle-thin"aria-hidden="true">Input 7</i>
+                </div> <br>
+                <div class="i"><i class="fa fa-toggle-on" aria-hidden="true">  Relay 4</i> 
+                    <i class="fa fa-toggle-on" aria-hidden="true"> Relay 8</i>
+                    <i class="fa fa-circle-thin" aria-hidden="true">Input 4</i>
+                    <i class="fa fa-circle-thin"aria-hidden="true">Input 8</i>
+                </div> <br>
+            </div>
+            </div> 
+            <!-- b2 end -->
+            <!--  b3 started -->
+            <div class="g3">
+
+                <form action="">
+                    <h1>User Setting</h1>
+                    <div class="frm"><input type="text" placeholder="ADMIN"></div>
+                    <div class="frm"><input type="password" placeholder="Password"></div>
+                    <div class="frm"><input type="password" placeholder="New Password"> </div>
+                    <div class="frm"><input type="password" placeholder="Confirm Password"></div>
+                    <button type="button" class="frmbutton">Change</button>
+                </form>  
+            </div>
+            <!--  b3 end -->
+            <!-- b4 start -->
+            <div class="g4">
+                <h1>Wifi Setting :-</h1>
+                <form action="">
+                    <div class="wifi"><input type="text" placeholder="ESP32456930294"> </div>
+                    <div class="wifi"><input type="number" placeholder="1234567890"></div>
+                    <button type="button">Change</button>
+                    <div class="wifi"><input type="text" placeholder="ESP_MESH"> </div>
+                    <div class="wifi"><input type="number" placeholder="1234567890"></div>
+                    <div class="wifi"><input type="number" placeholder="5555"></div>
+                    <div><button type="button">Scan</button>
+                        <button type="button">Change</button>
+                    </div>
+                </form>
+            </div>
+            <!-- b4 end -->
+            <!-- b5 Strated -->
+            <div class="g5">
+                <h1>Wifi Scan :-</h1>
+                <table>
+                    <tr>
+                    <th>#</th>
+                    <th>ID</th>
+                    <th>Strength</th>
+                    <th>Encryption</th>
+                   
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ESP32456930294</td>
+                    <td>-74db</td>
+                    <td>WEP</td>
+                </tr>
+                <hr>
+                <tr>
+                    <td>2</td>
+                    <td>ESP32456930294</td>
+                    <td>-39db</td>
+                    <td>WPA2</td>
+                </tr>
+                
+                <tr>
+                    <td>3</td>
+                    <td>ESP32456930294</td>
+                    <td>-50db</td>
+                    <td>WPA</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>ESP32456930294</td>
+                    <td>-23db</td>
+                    <td>WEP</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>ESP32456930294</td>
+                    <td>-49db</td>
+                    <td>WPA</td>
+                </tr>
+            </table>
+            </div>
+            <!-- b5 end -->
+            <!-- b6 start -->
+            <div class="g6">
+                <h1>Connection Nodes :-</h1>
+                <table >
+                    <tr>
+                    <th>#</th>
+                    <th>SSID</th>
+                    <th>Strength</th>
+                    <th>Encryption</th>
+                   
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>ESP_MESH_1</td>
+                    <td>-74db</td>
+                    <td>WEP</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Innospace</td>
+                    <td>-39db</td>
+                    <td>WPA2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Test_wifi</td>
+                    <td>-50db</td>
+                    <td>WPA</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>ESP12349035</td>
+                    <td>-23db</td>
+                    <td>WEP</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>ESP_MESH_4</td>
+                    <td>-49db</td>
+                    <td>WPA</td>
+                </tr>
+            </table>
+
+            </div>
+            <!-- b6 end -->
+            <div class="g7">
+                <h1>Server Setting :-</h1>
+                <form action="">
+                    <input type="radio">TCP <br>
+                    <input type="radio">MQTT <br>
+                    <input type="number" placeholder="192.15.123.12"><br>
+                    <input type="number" placeholder="2345"><br>
+                    <input type="text" placeholder="topic/data"><br>
+                    <button type="submit">Change</button>
+                </form>
+
+            </div>
+        </div>
+        <footer>
+            <button>Reboot</button>
+        </footer>
+    </section>
+</body>
+
+</html>

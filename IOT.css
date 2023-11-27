@@ -1,0 +1,257 @@
+.bg {
+    background-color: rgb(60, 179, 113);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login {
+    background-color: white;
+    margin: 0px;
+    box-shadow: 0 0 10px rgba(104, 42, 42, 0.1);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+  
+
+}
+
+.login i {
+    width: 100px;
+    height: 30px;
+   position: relative;
+   top: 7px;
+   left: 25px;
+
+}
+
+.arrow i{
+    width: 200px;
+    color: rgb(60, 179, 113);
+    position: relative;
+    left: 105%;
+}
+
+.form-grp{
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+   
+}
+
+.login input {
+    border: 1px solid black;
+    border: none;
+    border-bottom: 1px solid gray;
+    position: relative;
+    right: 50px;
+
+   
+}
+
+/*--------------------------------------------------------*/
+nav {
+    background-color:rgb(60, 179, 113);
+    margin-top: 50px;
+    display: flex;
+
+
+}nav h1{
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+nav button {
+    border: 0px;
+    background-color:rgb(60, 179, 113);
+    position: relative;
+    left: 70%;
+    color: white;
+
+}
+
+.grid {
+    margin: 30px;
+    padding: 50px;
+    background-color: snow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr fr;
+    grid-template-areas:
+        "config inout  inout setting"
+        "wifiset wifiscan wifiscan wifiscan"
+        "connection connection  connection server";
+    gap: 60px;
+
+
+}
+
+.g1 {
+    background-color: white;
+    position: relative;
+    padding-left: 20px ;
+    grid-area: config;
+
+}
+.g1 table{
+    position: relative;
+    left: 20px;
+    font-size: large;
+}
+
+.g2 {
+    background-color: white;
+    position: relative;
+    padding-left: 20px ;
+    grid-area: inout;
+}
+.g2 i{
+    position: relative;
+    left: 10px;
+    padding: 20px 50px;
+    font-size: large;
+}
+
+.g3 {
+    background-color: white;
+    grid-area: setting;
+    background-color: white;
+    position: relative;
+    padding-left: 20px ;
+
+}
+.g3 .frm{
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+
+.g3 .frmbutton {
+    color: aliceblue;
+    border: none;
+    background-color: rgb(60, 179, 113);
+    margin: 10px;
+    padding: 6px 20px;
+    font-size: x-small;
+    position: relative;
+    left: 50px;    
+}
+
+.g4 {
+    background-color: white;
+    grid-area: wifiset;
+    position: relative;
+    padding-left: 20px ;
+}
+.g4 form{
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+#but{
+    position: relative;
+    right: 40px;
+}
+
+ .g4 button{
+    position: relative;
+    left: 20%;
+    color: aliceblue;
+    border: none;
+    background-color:rgb(60, 179, 113);
+    margin: 10px;
+    padding: 6px 20px;
+    font-size: x-small;
+    position: relative;
+    left: 50px;  
+
+} 
+.g5 {
+    background-color: white;
+    grid-area: wifiscan;
+    position: relative;
+    padding-left: 20px ;
+ 
+
+}
+
+.g5 table {
+    background-color: white;
+    padding-left: 20px;
+    display: table;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-bottom: 1px solid black;
+}
+table{
+    border-bottom: 2px solid gray;
+}
+#t12{
+    padding: 20px 1px;
+}
+.g6 {
+    background-color: white;
+    grid-area: connection;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.g7 {
+    background-color: white;
+    grid-area: server;
+    position: relative;
+    padding-left: 20px ;
+   
+}
+.g7 form{
+    position: relative;
+    left: 10px;
+    padding: 10px;
+}
+.g7 button {
+    color: aliceblue;
+    border: none;
+    background-color:rgb(60, 179, 113);
+    margin: 10px;
+    padding: 6px 20px;
+    font-size: x-small;
+    
+}
+input {
+    border: none;
+    border-bottom: 2px solid gray;
+    margin: 5PX;
+
+}
+
+table {
+    border: none;
+}
+
+
+
+.g2 .i {
+    display: contents;
+
+}
+
+footer {
+    position: relative;
+    left: 50%;
+    top: 25px;
+
+}
+
+footer button {
+    color: aliceblue;
+    border: none;
+    background-color:rgb(60, 179, 113);
+    margin: 10px;
+    padding: 6px 20px;
+    font-size: x-small;
+}
