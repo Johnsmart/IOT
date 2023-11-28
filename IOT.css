@@ -11,35 +11,35 @@
     background-color: white;
     margin: 0px;
     box-shadow: 0 0 10px rgba(104, 42, 42, 0.1);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 20px;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
 
 }
 
 .login i {
     width: 100px;
     height: 30px;
-   position: relative;
-   top: 7px;
-   left: 25px;
+    position: relative;
+    top: 7px;
+    left: 25px;
 
 }
 
-.arrow i{
+.arrow i {
     width: 200px;
     color: rgb(60, 179, 113);
     position: relative;
     left: 105%;
 }
 
-.form-grp{
+.form-grp {
     display: flex;
     justify-content: left;
-    align-items: center ;
-   
+    align-items: center;
+
 }
 
 .login input {
@@ -49,17 +49,19 @@
     position: relative;
     right: 50px;
 
-   
+
 }
 
 /*--------------------------------------------------------*/
 nav {
-    background-color:rgb(60, 179, 113);
+    background-color: rgb(60, 179, 113);
     margin-top: 50px;
     display: flex;
 
 
-}nav h1{
+}
+
+nav h1 {
     position: relative;
     left: 20px;
     color: white;
@@ -67,7 +69,7 @@ nav {
 
 nav button {
     border: 0px;
-    background-color:rgb(60, 179, 113);
+    background-color: rgb(60, 179, 113);
     position: relative;
     left: 70%;
     color: white;
@@ -92,23 +94,41 @@ nav button {
 .g1 {
     background-color: white;
     position: relative;
-    padding-left: 20px ;
     grid-area: config;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
 
 }
-.g1 table{
+
+.custom-table1 {
     position: relative;
     left: 20px;
     font-size: large;
+    padding: 10px;
+}
+
+.custom-table1 td,
+.custom-table1 th {
+    padding: 10px;
+    margin: 30px;
+    text-align: left;
+    padding-top: 18px;
 }
 
 .g2 {
     background-color: white;
     position: relative;
-    padding-left: 20px ;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
     grid-area: inout;
 }
-.g2 i{
+
+.g2 i {
     position: relative;
     left: 10px;
     padding: 20px 50px;
@@ -118,12 +138,16 @@ nav button {
 .g3 {
     background-color: white;
     grid-area: setting;
-    background-color: white;
     position: relative;
-    padding-left: 20px ;
+    padding-left: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
 
 }
-.g3 .frm{
+
+.g3 .frm {
     position: relative;
     left: 10px;
     padding: 10px;
@@ -137,95 +161,136 @@ nav button {
     padding: 6px 20px;
     font-size: x-small;
     position: relative;
-    left: 50px;    
+    left: 50px;
 }
 
 .g4 {
     background-color: white;
     grid-area: wifiset;
     position: relative;
-    padding-left: 20px ;
+    padding-left: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
 }
-.g4 form{
+
+.g4 form {
     position: relative;
     left: 10px;
     padding: 10px;
 }
-#but{
+
+#but {
     position: relative;
-    right: 40px;
+    right: 20px;
 }
 
- .g4 button{
+.g4 button {
     position: relative;
     left: 20%;
     color: aliceblue;
     border: none;
-    background-color:rgb(60, 179, 113);
+    background-color: rgb(60, 179, 113);
     margin: 10px;
     padding: 6px 20px;
     font-size: x-small;
     position: relative;
-    left: 50px;  
+    left: 50px;
 
-} 
+}
+
+.scanbut {
+    position: relative;
+    right: 40px;
+}
+
 .g5 {
     background-color: white;
     grid-area: wifiscan;
     position: relative;
-    padding-left: 20px ;
- 
-
-}
-
-.g5 table {
-    background-color: white;
     padding-left: 20px;
-    display: table;
-    width: 30%;
-    text-align: center;
-    padding: 4px 0;
-    border-bottom: 1px solid black;
 }
-table{
-    border-bottom: 2px solid gray;
+
+.custom-table2 {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 50px;
+    overflow: hidden;
+    font-size: large;
+
 }
-#t12{
-    padding: 20px 1px;
+
+.custom-table2 th {
+    padding: 10px;
+    margin: 30px;
+    text-align: left;
 }
+
+.custom-table2 td {
+    border-top: 1px solid gray;
+    padding: 10px;
+    margin: 30px;
+    text-align: left;
+    padding-top: 18px;
+
+
+}
+
+/* .custom-table2 th{
+    position :relative;
+    right: 10px;
+    
+} */
 .g6 {
     background-color: white;
     grid-area: connection;
-    display: grid;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    padding-left: 20px;
 }
 
 .g7 {
     background-color: white;
     grid-area: server;
     position: relative;
-    padding-left: 20px ;
-   
+    padding-left: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
 }
-.g7 form{
+
+h1 {
+    position: relative;
+    top: 10px;
+
+}
+
+.g7 form {
     position: relative;
     left: 10px;
-    padding: 10px;
+    padding: 20px;
 }
+
 .g7 button {
     color: aliceblue;
     border: none;
-    background-color:rgb(60, 179, 113);
+    background-color: rgb(60, 179, 113);
     margin: 10px;
     padding: 6px 20px;
     font-size: x-small;
-    
+    position: relative;
+    left: 50px;
 }
+
 input {
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
     margin: 5PX;
+    padding: 12px;
 
 }
 
@@ -250,8 +315,9 @@ footer {
 footer button {
     color: aliceblue;
     border: none;
-    background-color:rgb(60, 179, 113);
-    margin: 10px;
-    padding: 6px 20px;
+    background-color: rgb(60, 179, 113);
+    margin: 15px;
+    padding: 8px 25px;
     font-size: x-small;
+
 }
